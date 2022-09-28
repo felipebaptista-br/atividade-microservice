@@ -1,0 +1,17 @@
+#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 3.8rem;
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    box-shadow: 0 0 1.5em #121212;
+}
+
+#header img {
+    border-radius: 25px;
+    cursor: pointer;
+    height: 60%;
+    margin-left: 5rem;
+}

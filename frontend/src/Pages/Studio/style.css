@@ -1,0 +1,62 @@
+#studio {
+    height: 100vh;
+}
+
+.studio-content {
+    padding: 0rem 10rem;
+    padding-top: 7rem;
+    padding-bottom: 100px;
+    height: 100%;
+}
+
+.studio-content h2 {
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.studio-form {
+    width: 65%;
+    height: auto;
+    margin: 1.5rem 0rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 1em #cdcdcd;
+    background-color: #fefefe;
+}
+
+.studio-buttons {
+    display: flex;
+    width: 65%;
+}
+
+.studio-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.8rem 0;
+    border: none;
+}
+
+.button-left {
+    background-color: #cdcdcd;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.button-left:hover {
+    background-color: #adadad;
+}
+
+.button-right {
+    background-color: #2caabe;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.button-right:hover {
+    background-color: #2a96a7;
+}

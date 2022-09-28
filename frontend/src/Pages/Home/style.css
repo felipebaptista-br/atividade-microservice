@@ -1,0 +1,36 @@
+#home {
+    height: 100vh;
+}
+
+.home-content {
+    padding: 0rem 10rem;
+    padding-top: 7rem;
+    padding-bottom: 100px;
+    height: 100%;
+}
+
+.home-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.home-panel h2 {
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.home-panel button {
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.7rem 3.5rem;
+    background-color: #2caabe;
+    color: #fff;
+}
+
+.home-panel button:hover {
+    background-color: #2a96a7;
+}
